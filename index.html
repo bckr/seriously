@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <script class="include" type="text/javascript" src="js/jquery.min.js"></script>
+        <script class="include" type="text/javascript" src="js/jquery.jqplot.min.js"></script>
+        <script class="include" type="text/javascript" src="js/plugins/jqplot.bubbleRenderer.min.js"></script>
+        <script class="include" type="text/javascript" src="js/seriously.js"></script>
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"></link>
+        <link rel="stylesheet" type="text/css" href="css/style.css"></link>
+        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+        <title>Seriously?</title>
+    </head>
+    <body>
+        <div class="container-narrow">
+            <hr>
+            <div class="jumbotron">
+                <h1>The Good, the Bad and the Ugly</h1>
+                <p class="lead">A motion chart of 2012's TV Shows I've watched</p>
+            </div>
+            <hr>
+            <div id="serieschart"></div>
+            <hr>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Show</th>
+                  <th>My Rating</th>
+                  <th>IMDb-Rating</th>
+                  <th>Trend</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+            <hr>
+            <div class="footer center">
+                layout based on <a href="http://twitter.github.com/bootstrap">bootstrap</a> | graph rendered with <a href="http://www.jqplot.com/">jqPlot</a>
+            </div>
+        </div>
+        <script class="code" language="javascript" type="text/javascript">
+            $(document).ready(function(){
+                $.getJSON("seriously.json", function(data) {
+                    shows = [];
+                    $.each(data, function(key, show) {
+                        var properties = [show.xscale, show.rating, show.imdb_rating, show.name, show.trend];
+                        shows.push(properties);
+                    });
+                    plotGraph(shows);
+                    drawTable(shows);
+                });
+            });
+        </script>
+    </body>
+</html>
+
+
+

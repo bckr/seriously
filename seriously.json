@@ -1,0 +1,205 @@
+[
+  {
+    "name": "The Newsroom",
+    "xscale": 70,
+    "rating": 80,
+    "imdb_rating": 87,
+    "trend": 0
+  },
+  {
+    "name": "Shamelss",
+    "xscale": 55,
+    "rating": 80,
+    "imdb_rating": 85,
+    "trend": -1
+  },
+  {
+    "name": "The Big Bang Theory",
+    "xscale": 15,
+    "rating": 30,
+    "imdb_rating": 86,
+    "trend": -1
+  },
+  {
+    "name": "How I Met Your Mother",
+    "xscale": 20,
+    "rating": 48,
+    "imdb_rating": 86,
+    "trend": -1
+  },
+  {
+    "name": "Go On",
+    "xscale": 35,
+    "rating": 45,
+    "imdb_rating": 77,
+    "trend": 0
+  },
+  {
+    "name": "New Girl",
+    "xscale": 25,
+    "rating": 45,
+    "imdb_rating": 79,
+    "trend": -1
+  },
+  {
+    "name": "Modern Family",
+    "xscale": 40,
+    "rating": 82,
+    "imdb_rating": 87,
+    "trend": 0
+  },
+  {
+    "name": "Last Resort",
+    "xscale": 80,
+    "rating": 30,
+    "imdb_rating": 78,
+    "trend": -1
+  },
+  {
+    "name": "30 Rock",
+    "xscale": 10,
+    "rating": 65,
+    "imdb_rating": 80,
+    "trend": -1
+  },
+  {
+    "name": "Girls",
+    "xscale": 40,
+    "rating": 67,
+    "imdb_rating": 74,
+    "trend": 0
+  },
+  {
+    "name": "Parks and Recreation",
+    "xscale": 20,
+    "rating": 75,
+    "imdb_rating": 85,
+    "trend": 0
+  },
+  {
+    "name": "Suits",
+    "xscale": 80,
+    "rating": 68,
+    "imdb_rating": 89,
+    "trend": -1
+  },
+  {
+    "name": "Community",
+    "xscale": 30,
+    "rating": 92,
+    "imdb_rating": 88,
+    "trend": -1
+  },
+  {
+    "name": "Game of Thrones",
+    "xscale": 95,
+    "rating": 90,
+    "imdb_rating": 94,
+    "trend": 1
+  },
+  {
+    "name": "Boardwalk Empire",
+    "xscale": 90,
+    "rating": 85,
+    "imdb_rating": 87,
+    "trend": 1
+  },
+  {
+    "name": "Dexter",
+    "xscale": 80,
+    "rating": 50,
+    "imdb_rating": 91,
+    "trend": -1
+  },
+  {
+    "name": "Downton Abbey",
+    "xscale": 70,
+    "rating": 95,
+    "imdb_rating": 89,
+    "trend": 0
+  },
+  {
+    "name": "Episodes",
+    "xscale": 30,
+    "rating": 65,
+    "imdb_rating": 77,
+    "trend": 0
+  },
+  {
+    "name": "Homeland",
+    "xscale": 95,
+    "rating": 78,
+    "imdb_rating": 86,
+    "trend": 0
+  },
+  {
+    "name": "It's Always Sunny in Philadelphia",
+    "xscale": 0,
+    "rating": 75,
+    "imdb_rating": 89,
+    "trend": 0
+  },
+  {
+    "name": "Louie",
+    "xscale": 55,
+    "rating": 78,
+    "imdb_rating": 87,
+    "trend": 1
+  },
+  {
+    "name": "Mad Men",
+    "xscale": 80,
+    "rating": 90,
+    "imdb_rating": 88,
+    "trend": 1
+  },
+  {
+    "name": "Sherlock",
+    "xscale": 70,
+    "rating": 78,
+    "imdb_rating": 92,
+    "trend": 0
+  },
+  {
+    "name": "Mob Doctor",
+    "xscale": 80,
+    "rating": 20,
+    "imdb_rating": 59,
+    "trend": 0
+  },
+  {
+    "name": "The New Normal",
+    "xscale": 15,
+    "rating": 20,
+    "imdb_rating": 66,
+    "trend": 0
+  },
+  {
+    "name": "Revolution",
+    "xscale": 90,
+    "rating": 35,
+    "imdb_rating": 66,
+    "trend": 0
+  },
+  {
+    "name": "Arrow",
+    "xscale": 65,
+    "rating": 45,
+    "imdb_rating": 84,
+    "trend": 0
+  },
+  {
+    "name": "Californication",
+    "xscale": 50,
+    "rating": 68,
+    "imdb_rating": 83,
+    "trend": -1
+  },
+  {
+    "name": "House",
+    "xscale": 55,
+    "rating": 70,
+    "imdb_rating": 86,
+    "trend": 0
+  }
+]
