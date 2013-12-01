@@ -1,0 +1,18 @@
+{
+  "name": "seriously",
+  "version": "0.0.0",
+  "description": "A motion chart of 2012's TV Shows I've watched",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bckr/seriously.git"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/bckr/seriously/issues"
+  },
+  "dependencies": {
+    "express": "~3.4.4"
+  }
+}
